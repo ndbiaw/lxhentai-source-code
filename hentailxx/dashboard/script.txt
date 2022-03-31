@@ -1,0 +1,21 @@
+<script>
+
+// Một số class thông báo
+// alert-success, alert-danger, alert-info, alert-primary, alert-secondary, alert-dark
+// muốn thêm thông báo nào thì + vào
+// icon thì lấy ở đây: https://fontawesome.com/, fa fa-tên icon
+// bỏ color: red hoặc thay nếu muốn dùng màu chữ khác
+
+$(function(){
+    var html = '';
+    if(location.href.search('m.hentailxx.com') != -1) {
+        html = '<div class="text-center"><a href="http://bit.ly/hentailxx-kingfun-mobile-top" target="_blank"><img src="https://images2.imgbox.com/97/75/oH5P6lYa_o.gif"></a></div><div class="text-center"><a href="http://bit.ly/hentailx-go88-mobile-top-v1" target="_blank"><img src="https://1.bp.blogspot.com/-Bac_dPYQ3y4/XbB0JKbHd-I/AAAAAAAAAAU/ZqT5OinzvWQmAoOYdvgd4UI_K1p65QnPwCLcBGAsYHQ/s1600/320x50-go88.gif"></a></div>';
+        html += '<div class="text-center"><a href="http://bit.ly/hentailxx-hee-mobile-top-banner-v1" target="_blank"><img src="https://4.bp.blogspot.com/-_X6hFXE7W5Y/XbB0W4TunRI/AAAAAAAAAAY/uOkG9beVRzML3poxWxdPp0ccMFZAxLC5gCLcBGAsYHQ/s1600/320x50-mibet.gif" /></a></div>';
+        html += '<div class="text-center"><a href="http://bit.ly/hentailxx-fabet-mobile-top-3-v1" target="_blank"><img src="https://1.bp.blogspot.com/-Bac_dPYQ3y4/XbB0JKbHd-I/AAAAAAAAAAU/ZqT5OinzvWQmAoOYdvgd4UI_K1p65QnPwCLcBGAsYHQ/s1600/320x50-go88.gif" /></a></div>';
+    }
+
+    $('#mainpage').prepend(
+        '<div class="alert alert-warning" style="font-size: x-large"><i class="fa fa-bomb fa-fw"></i>  TRUYỆN NÀO DIE THÌ MỌI NGƯỜI CÓ THỂ COMMENT BÊN DƯỚI LÀ DIE, HAY GỬI LINK Ở CHATBOX ĐỂ REUP TRUYỆN</div>'
+    );
+})
+</script>
