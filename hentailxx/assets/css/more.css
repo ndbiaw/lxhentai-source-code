@@ -1,0 +1,58 @@
+.hot {
+  position: relative;
+  height: 520px;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color:#000;
+  margin: 0;
+  padding: 0;
+}
+
+.gridSlide {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  height: 100%;
+  text-align: center;
+}
+
+.gridSlide > div {
+  height: calc(100% - 10px);
+}
+
+.swiper-container {
+  height: 520px;
+  margin-top: 20px;
+}
+
+.truyenHot > span:first-child {
+  font-weight: bold;
+  font-size: x-large;
+  padding-top: 20px;
+  padding-left: 30px;
+  color: #ff1c1c;
+  display: block;
+}
+
+.itemSlide {
+  height: 200px;
+  width: 160px;
+  display: inline-block;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  position: relative;
+}
+
+.itemSlide .newestChapter {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background: #4CAF50;
+  font-weight: bold;
+}
+
+.itemSlide .newestChapter a:hover {
+  color: #fff;
+}
+
+.swiper-pagination-bullet {
+  background: #fff!important;
+}
